@@ -1,13 +1,13 @@
 package com.evgeniy.riakhin.mytacocloud.controllers;
 
 import com.evgeniy.riakhin.mytacocloud.model.Ingredient;
+import com.evgeniy.riakhin.mytacocloud.model.Ingredient.Type;
 import com.evgeniy.riakhin.mytacocloud.model.Taco;
 import com.evgeniy.riakhin.mytacocloud.model.TacoOrder;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import com.evgeniy.riakhin.mytacocloud.model.Ingredient.Type;
 
 import java.util.Arrays;
 import java.util.List;
