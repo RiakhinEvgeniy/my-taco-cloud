@@ -4,10 +4,16 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
 
+import java.util.Date;
 import java.util.List;
 
 @Data
 public class Taco {
+
+    private Long id;
+
+    private Date createAt = new Date();
+
     @NotNull
     @Size(min = 4, message = "Name must be at last 4 characters long")
     private String name;
